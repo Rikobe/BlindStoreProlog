@@ -178,8 +178,6 @@ esPadre('Medicina',X):-
     cerrar_conexion.
 
 
-encontrar(X):-
-    findall(X,esPadre(L,X),Z).
 
 
 arbol([Arbol]):-
@@ -188,38 +186,6 @@ arbol([Arbol]):-
 
 insertarElemento([Arbol],Elemento):-
     nth0(0,Arbol,Elemento).
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
